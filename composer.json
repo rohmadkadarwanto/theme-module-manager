@@ -1,0 +1,17 @@
+{
+    "name": "your-org/theme-module-manager",
+    "description": "Theme and Module Management System with Git Integration",
+    "type": "project",
+    "require": {
+        "ext-json": "*",
+        "czproject/git-php": "^4.5"
+    },
+    "config": {
+        "platform-check": false
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
